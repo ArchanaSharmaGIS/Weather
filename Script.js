@@ -3,7 +3,7 @@ const map = L.map('map').setView([20, 0], 2);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(map);
-// sgdigosdpg;sdklf
+
 // api and layers
 //rghghiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 const apiKey = 'e6d933809c9500136ac8ce9c709250ba';
@@ -11,7 +11,7 @@ const weatherLayer = L.layerGroup().addTo(map);
 const boundaryLayer = L.layerGroup().addTo(map);
 let forecastData = null;
 let lastLatLng = null;
-
+// weshfosdhfjksflcxzh
 // add boundaries
 L.geoJSON(boundary, { 
     style: { color: '#d35400', weight: 1, fillOpacity: 0 } 
